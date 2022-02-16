@@ -1,0 +1,43 @@
+.mainStory {
+  display: flex;
+  justify-content: space-around;
+}
+.mainStory__img {
+  height: 800px;
+}
+.bg__image {
+  background-image: url('https://www.realmadrid.com/img/cc_1920px/63-gento_h_20220118100408.jpg');
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  /* padding: 10px; */
+}
+.bottom {
+  background-color: rgb(3, 3, 3);
+  opacity: 0.5;
+  color: white;
+  padding-top: 10px;
+  padding-left: 100px;
+  height: 100px;
+}
+.main__news {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 200;
+}
+.headline {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.flex-start {
+  display: flex;
+  justify-content: start;
+}
+.moreAboutNews {
+  margin: 0px;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+}

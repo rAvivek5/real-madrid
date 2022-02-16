@@ -1,0 +1,24 @@
+.bg__black {
+  background: black;
+  display: flex;
+  justify-content: end;
+}
+.headerB__image {
+  height: 30px;
+  width: 60px;
+  color: white;
+}
+.headerB__icon {
+  color: white;
+  margin-left: 20px;
+  size: 1px;
+}
+.vl {
+  border-left: 0.5px solid rgb(182, 179, 179);
+  margin-left: 10px;
+  margin-right: 10px;
+  /* position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0; */
+}

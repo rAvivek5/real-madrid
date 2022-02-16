@@ -1,0 +1,72 @@
+.header1 {
+  display: flex;
+  justify-content: end;
+  /* background: green; */
+  height: 40px;
+}
+
+.header__link {
+  font-size: 11px;
+  font-weight: 400;
+  margin: 10px;
+  color: gray;
+}
+.vl2 {
+  margin-top: 14px;
+  border-left: 0.5px solid rgb(182, 179, 179);
+  /* margin-left: 10px; */
+  height: 10px;
+  /* margin-right: 10px; */
+}
+.vl3 {
+  margin-top: 12px;
+  border-left: 0.5px solid rgb(182, 179, 179);
+  height: 40px;
+  margin-right: 10px;
+}
+.header2 {
+  display: flex;
+  justify-content: start;
+}
+
+.header__image {
+  height: 50px;
+  width: 40px;
+}
+.header__image__realMadrid {
+  height: 50px;
+  width: 200px;
+}
+.header3 {
+  display: flex;
+  justify-content: start;
+}
+.style {
+  display: flex;
+  justify-content: space-between;
+}
+.header4 {
+  display: flex;
+  justify-content: end;
+}
+.h4__links {
+  color: blue;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.hide {
+  display: none;
+  position:sticky;
+  height: 200px;
+  width: 800px;
+  background: #000;
+  padding: 10px;
+
+}
+
+.header__link:hover + .hide {
+  display: block;
+  color: red;
+}
